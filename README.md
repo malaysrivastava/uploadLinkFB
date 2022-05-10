@@ -7,13 +7,11 @@ A package to upload image in firebase and returning the link used for sending it
 npm i uploadlinkfirebase
 
 # example
-
 import { uploadLink } from 'uploadlinkfirebase';
 
-//add your firebase project credentials for granting storage
+add your firebase project credentials for granting storage
 
     const F = new uploadLink({
-
     apiKey: "",
     authDomain: "",
     projectId: "",
@@ -23,8 +21,8 @@ import { uploadLink } from 'uploadlinkfirebase';
     measurementId: ""
   });
 
-# then..  
-<input type="file" onChange={F.setImageUpload}/>
+# then.. 
+<!-- <input type="file" onChange={F.setImageUpload}/> -->
 
 # getting image link
  console.log(F.Link)
