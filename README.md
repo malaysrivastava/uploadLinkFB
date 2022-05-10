@@ -22,7 +22,7 @@ add your firebase project credentials for granting storage
   });
 
 # then.. 
-<!-- <input type="file" onChange={F.setImageUpload}/> -->
+< input type="file" onChange={F.setImageUpload}/ >
 
 # getting image link
  console.log(F.Link)
