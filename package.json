@@ -1,6 +1,6 @@
 {
-  "name": "uploadlinkfirebase",
-  "version": "1.0.7",
+  "name": "imagefirebase",
+  "version": "1.0.9",
   "description": "A package to upload image in firebase and returning the link used for sending it to other types of database with limited storage.",
   "main": "index.js",
   "scripts": {
