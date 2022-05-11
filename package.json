@@ -10,16 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/malaysrivastava/uploadLinkFB.git"
   },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },
   "keywords": [
     "firebase",
     "image",
     "link"
   ],
   "author": "Malay Srivastava",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/malaysrivastava/uploadLinkFB/issues"
   },
