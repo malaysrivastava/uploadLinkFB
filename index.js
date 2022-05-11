@@ -61,11 +61,11 @@ class uploadLink {
           const app = initializeApp(firebaseConfig);
           const storage = getStorage(app)
 
-        // const reader = new FileReader();           // babel javascript class
-        // reader.onloadend = () => {
-        //     console.log(storage);
-        // }
-        // reader.readAsDataURL(e.target.files[0]);
+        const reader = new FileReader();           // babel javascript class
+        reader.onloadend = () => {
+            console.log(storage);
+        }
+        reader.readAsDataURL(e.target.files[0]);
         
         const imageRef = ref(storage, `image/${e.target.files[0].name + v4()}`)
                   uploadBytes(imageRef,e.target.files[0]).then(async(res)=>{

@@ -1,6 +1,6 @@
 {
   "name": "uploadlinkfirebase",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A package to upload image in firebase and returning the link used for sending it to other types of database with limited storage.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/malaysrivastava/uploadLinkFB.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "firebase",
@@ -22,12 +25,7 @@
   },
   "homepage": "https://github.com/malaysrivastava/uploadLinkFB#readme",
   "dependencies": {
-    "babel-loader": "^8.2.5",
     "firebase": "^9.8.1",
-    "ts-loader": "^9.3.0",
     "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "node-loader": "^2.0.0"
   }
 }
