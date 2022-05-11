@@ -27,4 +27,5 @@ add your firebase project credentials for granting storage
 # getting image link
  console.log(F.Link)
 
- 
+<img width="1431" alt="Screenshot 2022-05-12 at 12 30 01 AM" src="https://user-images.githubusercontent.com/57169971/167925842-bcdcc365-975d-416a-9d61-8734683917ef.png">
+<img width="1436" alt="Screenshot 2022-05-12 at 12 30 17 AM" src="https://user-images.githubusercontent.com/57169971/167925844-b87abee9-e181-4fe4-a4bc-33a9e8047fda.png">
